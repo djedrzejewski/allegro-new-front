@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+h3 {
+    color: green;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+p {
+   margin: 20px 0;
+}
+
+.italicP {
+    font-style: italic;
+}
+
+p::first-letter {
+    font-size: 18px;
+    font-weight: bold;
+  }
