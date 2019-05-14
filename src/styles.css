@@ -8,6 +8,9 @@ h3 {
     font-style: italic;
     font-weight: bold;
 }
+.zmiana {
+    color: brown;
+}
 p {
    margin: 20px 0;
 }
