@@ -6,7 +6,7 @@ function getProductList(){
             "name": "Krzesło",
             "price": {
               "amount": "45.99",
-              "currency": "PLN"
+              "currency": "EUR"
             },
             "description": {
               "text": "Bardzo wygodne krzesło"
@@ -20,7 +20,7 @@ function getProductList(){
             "name": "Notatnik",
             "price": {
               "amount": "9.00",
-              "currency": "PLN"
+              "currency": "USD"
             },
             "description": {
               "text": "Notatnik w którym można pisać ołówkiem. Długopisem też."
