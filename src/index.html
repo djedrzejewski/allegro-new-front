@@ -7,14 +7,26 @@
         <title>Sklep</title>
         <link rel="stylesheet" href="styles.css"/>
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet">
+        <script src="services/search-service.js"></script>
         <script src="services/service.js"></script>
         <script src="utils/formatUtils.js""></script>
         <script src="components/product.js"></script>
     </head>    
     <body>
-        <div class="container">
+        <h1 class="title">Mój ekstra sklep!</h1>
+        <main class="container">
+            <section class="card"> 
+                <input type="text" id="search-input">
+                <button id="search-button" class="button">Szukaj!</button>
+            </section>            
+            <section class="card"> 
+                <input type="text" id="price-from-input" placeholder="od">
+                <input type="text" id="price-to-input" placeholder="do">
+                <button id="filter-button" class="button">Filtruj po cenie!</button>
+            </section>
             <section class="section" id="listing"></section>
-        </div>
+        </main>
         <script src="main.js"></script>
     </body>
 </html>
